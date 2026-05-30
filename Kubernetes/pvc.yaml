@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: hospital-pvc
+spec:
+  accessModes:
+   - ReadwriteOnce
+  resorces:
+    requests:
+      storage: 5Gi
+      
